@@ -1,0 +1,11 @@
+# Build output never goes in the repository.
+/chat-agent
+/bin/
+*.exe
+*.test
+*.out
+
+# Local environment files hold credentials.
+.env
+.env.*
+!.env.example
